@@ -14,16 +14,26 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
-  color: white;
-  width: 150px;
+  background-color: violet;
+  color: black;
+  width: 250px;
   text-align: center;
   height: 50px;
+  transition: background-color 1s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+  box-shadow: 4px 4px darkviolet;
+  border: none
   /* Add the css property transition here! */
 
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
-
+  background-color: darkviolet;
+  border-radius: 5px;
+  opacity: 100%;
+  box-shadow: none;
+  border: none;
 }
